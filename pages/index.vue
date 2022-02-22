@@ -2,6 +2,7 @@
         <form
           name="contact"
           method="post"
+          action="/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
