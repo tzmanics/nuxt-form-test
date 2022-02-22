@@ -1,6 +1,11 @@
 <template>
-<form netlify name="contact" action="/" method="POST">
-  <input type="hidden" name="contact" value="contact" />
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
